@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "brief": "A red around €25 as a gift for someone who likes Italian wine.",
+  "startedAt": "2026-10-10T15:16:27Z",
+  "finishedAt": "2026-10-10T15:17:42Z",
+  "criteria": {
+    "minPriceEur": 20,
+    "maxPriceEur": 30,
+    "volumeMl": 750,
+    "notes": "red, Italian, a gift; 'around €25' taken as €20–30 before searching"
+  },
+  "requests": {
+    "searches": [
+      { "query": "itališkas raudonas vynas dovanai" },
+      { "query": "chianti classico riserva vynas 0,75 l", "empty": true },
+      { "query": "chianti classico riserva vynas 0,75 l" },
+      { "query": "raudonas sausas itališkas vynas 0,75 l kaina" }
+    ],
+    "pageReads": [
+      {
+        "url": "https://www.vynomeka.lt/vynas-ruffino-riserva-ducale-chianti-classico-riserva-docg-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://www.vynokambarys.lt/banfi-chianti-classico-riserve-docg-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://iki.lt/alkoholiniu-gerimu-tipas/vynas/",
+        "ok": true,
+        "kind": "listing",
+        "note": "first page only, cheapest first (1.19 to 5.99); nothing near the budget"
+      }
+    ]
+  },
+  "shortlist": [
+    {
+      "rank": 1,
+      "name": "Banfi Chianti Classico Riserve D.O.C.G., 0,75 l",
+      "producer": "Banfi S.r.l.",
+      "shop": "vynokambarys",
+      "url": "https://www.vynokambarys.lt/banfi-chianti-classico-riserve-docg-075-l",
+      "priceEur": 24.95,
+      "priceText": "24.95 €",
+      "volumeMl": 750,
+      "inStock": true,
+      "reason": "Tuscan Chianti Classico Riserva from a well-known estate, aged 24 months in oak, at almost exactly €25; dry, 13.5%, and the page confirms stock."
+    },
+    {
+      "rank": 2,
+      "name": "Vynas Ruffino Riserva Ducale Chianti Classico Riserva D.O.C.G. 0,75 l",
+      "producer": null,
+      "shop": "vynomeka",
+      "url": "https://www.vynomeka.lt/vynas-ruffino-riserva-ducale-chianti-classico-riserva-docg-075-l",
+      "priceEur": 24.95,
+      "priceText": "2495 €",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "A classic Italian gift label: Chianti Classico Riserva, 80% Sangiovese, aged 24 months, dry, 14%, at €24.95. Delivery takes 1-3 working days and stock is not stated."
+    }
+  ],
+  "rejected": [],
+  "notes": "Rerun with the changed discovery rules. Two wines, the same two as in the first round, so the changes did not help this brief. The empty-search retry worked: the query that returned nothing returned ten results when repeated. The four searches surfaced three product pages and two listing pages on the five shops. The IKI listing was readable but shows the cheapest wines first, all under €6. The Vynoteka Italian-wine listing was not tried, because an earlier run in this session showed Vynoteka listings come back without products; the Vynoteka Poggio Civetta page was not re-read, because the first round read it at 15.99, under the floor. A fresh session would have spent two or three more page reads to learn the same. A Vynokambarys red-wine listing, which is readable, did not appear in this run's results and was therefore not used. 5 of 8 page reads were left unused. The Vynomeka price appears as '2495 €' with the decimal separator lost; read as 24.95 because the same page prints its 80.00 € free-delivery threshold as '8000 €'."
+}

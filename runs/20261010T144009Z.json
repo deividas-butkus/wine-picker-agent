@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "brief": "Primitivo under €15 to go with steak.",
+  "startedAt": "2026-10-10T14:40:09Z",
+  "finishedAt": "2026-10-10T14:40:43Z",
+  "criteria": {
+    "minPriceEur": null,
+    "maxPriceEur": 15,
+    "volumeMl": 750,
+    "notes": "red, Primitivo, dry, to go with steak"
+  },
+  "requests": {
+    "searches": [
+      {
+        "query": "primitivo raudonas vynas 0,75 l",
+        "note": "returned no results"
+      },
+      {
+        "query": "primitivo vynas site:vynokambarys.lt",
+        "note": "10 results on the shop, none a Primitivo product page"
+      },
+      { "query": "primitivo vynas kaina" }
+    ],
+    "pageReads": [
+      {
+        "url": "https://vynoteka.lt/santoro-primitivo-puglia-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/raudonasis-vynas/raudonas-sausas-vynas-primitivo-puglia-0-75l/p/7201736",
+        "ok": true
+      }
+    ]
+  },
+  "shortlist": [
+    {
+      "rank": 1,
+      "name": "Santoro Primitivo Puglia 0,75 L",
+      "producer": null,
+      "shop": "vynoteka",
+      "url": "https://vynoteka.lt/santoro-primitivo-puglia-075-l",
+      "priceEur": 8.99,
+      "priceText": "8 99 €",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry red Primitivo from Puglia that the shop pairs with meat dishes; silver medal noted on the page. At 12% it is on the lighter side for steak."
+    },
+    {
+      "rank": 2,
+      "name": "Raudonasis sausas vynas su saugoma geografine nuoroda VIGNETI DEL SALENTO I MURI PRIMITIVO PUGLIA IGP, 0,75 l",
+      "producer": "Vigneti del Salento",
+      "shop": "rimi",
+      "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/raudonasis-vynas/raudonas-sausas-vynas-primitivo-puglia-0-75l/p/7201736",
+      "priceEur": 9.99,
+      "priceText": "9 99 €/vnt.",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry red Primitivo Puglia IGP well inside the budget; the page gives no strength or pairing, so the fit with steak rests on the grape alone. Per-litre price of 13,32 €/l confirms 9.99."
+    }
+  ],
+  "rejected": [],
+  "notes": "Only two wines: the three searches surfaced just two product pages on the five shops. The first search returned an empty result, the site:vynokambarys.lt search returned shop pages but no Primitivo product, and the third returned the Vynoteka Primitivo category page (skipped as a category page, per the skill) plus the two product pages read here. 6 of 8 page reads were left unused for lack of candidates. Neither page states stock. Producer is null for the Vynoteka wine because the page names only the supplier."
+}

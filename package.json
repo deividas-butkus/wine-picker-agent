@@ -1,0 +1,21 @@
+{
+  "name": "wine-picker-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent that shortlists wines on sale in Lithuanian shops through Oxylabs MCP",
+  "scripts": {
+    "smoke": "node scripts/smoke.js",
+    "validate": "node scripts/validate-run.js",
+    "test": "node --test",
+    "check": "npm run format:check && npm test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

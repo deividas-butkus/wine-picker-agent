@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "brief": "Primitivo under €15 to go with steak.",
+  "startedAt": "2026-10-10T15:13:20Z",
+  "finishedAt": "2026-10-10T15:14:07Z",
+  "criteria": {
+    "minPriceEur": null,
+    "maxPriceEur": 15,
+    "volumeMl": 750,
+    "notes": "red, Primitivo, dry, to go with steak"
+  },
+  "requests": {
+    "searches": [
+      { "query": "primitivo vynas" },
+      { "query": "primitivo raudonas sausas vynas 0,75 l kaina" }
+    ],
+    "pageReads": [
+      {
+        "url": "https://vynoteka.lt/primitivo-vynas",
+        "ok": false,
+        "kind": "listing",
+        "note": "Markdown held the heading only, no products"
+      },
+      {
+        "url": "https://vynoteka.lt/santoro-primitivo-puglia-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/raudonasis-vynas/raudonas-sausas-vynas-primitivo-puglia-0-75l/p/7201736",
+        "ok": true
+      },
+      {
+        "url": "https://vynoteka.lt/maia-primitivo-puglia-bio-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://www.vynomeka.lt/vynas-doppio-passo-primitivo-puglia-igt-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://vynoteka.lt/primitivo-vynas",
+        "ok": false,
+        "kind": "listing",
+        "note": "links output held navigation only, no product links"
+      }
+    ]
+  },
+  "shortlist": [
+    {
+      "rank": 1,
+      "name": "Maia Primitivo Puglia Bio 0,75 l",
+      "producer": null,
+      "shop": "vynoteka",
+      "url": "https://vynoteka.lt/maia-primitivo-puglia-bio-075-l",
+      "priceEur": 10.99,
+      "priceText": "10 99 €",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "The fullest of the four at 13.5%, dry, organic, and paired with meat dishes by the shop: the best match for steak."
+    },
+    {
+      "rank": 2,
+      "name": "Vynas Doppio Passo Primitivo Puglia I.G.T. 0,75 l",
+      "producer": null,
+      "shop": "vynomeka",
+      "url": "https://www.vynomeka.lt/vynas-doppio-passo-primitivo-puglia-igt-075-l",
+      "priceEur": 8.95,
+      "priceText": "895 €",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry, 13%, 100% Primitivo, and the page recommends it with grilled meat; the cheapest of the four. Delivery takes 1-3 working days."
+    },
+    {
+      "rank": 3,
+      "name": "Raudonasis sausas vynas su saugoma geografine nuoroda VIGNETI DEL SALENTO I MURI PRIMITIVO PUGLIA IGP, 0,75 l",
+      "producer": "Vigneti del Salento",
+      "shop": "rimi",
+      "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/raudonasis-vynas/raudonas-sausas-vynas-primitivo-puglia-0-75l/p/7201736",
+      "priceEur": 9.99,
+      "priceText": "9 99 €/vnt.",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry red Primitivo Puglia IGP well inside the budget; the page gives no strength or pairing, so the fit with steak rests on the grape alone. Per-litre price of 13,32 €/l confirms 9.99."
+    },
+    {
+      "rank": 4,
+      "name": "Santoro Primitivo Puglia 0,75 L",
+      "producer": null,
+      "shop": "vynoteka",
+      "url": "https://vynoteka.lt/santoro-primitivo-puglia-075-l",
+      "priceEur": 8.99,
+      "priceText": "8 99 €",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry Primitivo that the shop pairs with meat dishes, with a silver medal noted; ranked last because 12% is light for steak."
+    }
+  ],
+  "rejected": [],
+  "notes": "Rerun with the changed discovery rules. Four wines from three shops, against two in the first round. The gain came from the searches, not from the listing page: all four product pages were in the search results this time (two of them only in the image and overview blocks), where the first round's queries found two. The Vynoteka Primitivo listing was read twice, as Markdown and as links, and neither held any product, so the listing appears to be filled in by script. The third search and the empty-search retry were not needed. The Vynomeka price appears as '895 €' with the decimal separator lost; read as 8.95 because the same page prints its 80.00 € free-delivery threshold as '8000 €'. No page states stock. Producer is null where the page names only a supplier or nothing."
+}

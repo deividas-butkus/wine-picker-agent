@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "brief": "Dry white under €10 for grilled fish.",
+  "startedAt": "2026-10-10T15:14:38Z",
+  "finishedAt": "2026-10-10T15:16:05Z",
+  "criteria": {
+    "minPriceEur": null,
+    "maxPriceEur": 10,
+    "volumeMl": 750,
+    "notes": "white, dry, to go with grilled fish; no grape or country stated"
+  },
+  "requests": {
+    "searches": [
+      { "query": "sausas baltas vynas prie žuvies" },
+      { "query": "baltas sausas vynas 0,75 l kaina" },
+      { "query": "pinot grigio baltas sausas vynas 0,75 l" }
+    ],
+    "pageReads": [
+      {
+        "url": "https://iki.lt/alkoholiniu-gerimu-tipas/baltasis-vynas/",
+        "ok": false,
+        "kind": "listing",
+        "note": "tool returned 'Error: Document is empty'"
+      },
+      {
+        "url": "https://www.vynokambarys.lt/vynas/baltasis-vynas",
+        "ok": true,
+        "kind": "listing"
+      },
+      {
+        "url": "https://www.vynokambarys.lt/ferraton-la-tourne-vin-de-france-white-075-l",
+        "ok": true
+      },
+      {
+        "url": "https://www.vynokambarys.lt/santa-rita-120-chardonnay",
+        "ok": true
+      },
+      {
+        "url": "https://www.vynokambarys.lt/lupo-nero-bianco-sicilia-igt",
+        "ok": true
+      },
+      {
+        "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/baltasis-vynas/b-saus-vynas-doppio-passo-pinot-grigio-0-75l/p/7189660",
+        "ok": true
+      },
+      {
+        "url": "https://iki.lt/alkoholiniai-gerimai/baltasis-vynas-domodo-pinot-grigio-075-l/",
+        "ok": true
+      },
+      {
+        "url": "https://vynoteka.lt/elemento-pinot-grigio-075-l",
+        "ok": true
+      }
+    ]
+  },
+  "shortlist": [
+    {
+      "rank": 1,
+      "name": "Ferraton La Tournée Vin de France White, 0,75 l",
+      "producer": "Ferraton Pere & Fils",
+      "shop": "vynokambarys",
+      "url": "https://www.vynokambarys.lt/ferraton-la-tourne-vin-de-france-white-075-l",
+      "priceEur": 8.9,
+      "priceText": "8.90 €",
+      "volumeMl": 750,
+      "inStock": true,
+      "reason": "Dry Vermentino and Viognier blend with a full palate, 12.5%, which the shop pairs with fish: enough body for the grill. In stock."
+    },
+    {
+      "rank": 2,
+      "name": "Lupo Nero Bianco Sicilia I.G.T., 0,75 l",
+      "producer": "Angelo Rocca & Figli SRL",
+      "shop": "vynokambarys",
+      "url": "https://www.vynokambarys.lt/lupo-nero-bianco-sicilia-igt",
+      "priceEur": 5.5,
+      "priceText": "5.50 €",
+      "volumeMl": 750,
+      "inStock": true,
+      "reason": "Light, fresh, dry Sicilian white at 11% that the page says suits fish especially well; by far the cheapest. In stock."
+    },
+    {
+      "rank": 3,
+      "name": "Santa Rita 120 Chardonnay, 0,75 l",
+      "producer": "Vina Santa Rita S.A.",
+      "shop": "vynokambarys",
+      "url": "https://www.vynokambarys.lt/santa-rita-120-chardonnay",
+      "priceEur": 7.9,
+      "priceText": "7.90 €",
+      "volumeMl": 750,
+      "inStock": true,
+      "reason": "Dry, unoaked Chilean Chardonnay the page pairs with fish; at 14% with tropical fruit it is the richest option. In stock."
+    },
+    {
+      "rank": 4,
+      "name": "Baltasis sausas vynas DOPPIO PASSO PINOT GRIGIO, 0,75 l",
+      "producer": "Doppio Passo",
+      "shop": "rimi",
+      "url": "https://www.rimi.lt/e-parduotuve/lt/produktai/alkoholiniai-ir-nealkoholiniai-gerimai/vynas/baltasis-vynas/b-saus-vynas-doppio-passo-pinot-grigio-0-75l/p/7189660",
+      "priceEur": 9.49,
+      "priceText": "9 49 €/vnt.",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry Italian Pinot Grigio, a safe match for fish; the page gives no pairing or strength. Per-litre price of 12,65 €/l confirms 9.49."
+    },
+    {
+      "rank": 5,
+      "name": "BALTASIS VYNAS DOMODO PINOT GRIGIO , 0,75 l",
+      "producer": null,
+      "shop": "iki",
+      "url": "https://iki.lt/alkoholiniai-gerimai/baltasis-vynas-domodo-pinot-grigio-075-l/",
+      "priceEur": 9.29,
+      "priceText": "9 29 Eur",
+      "volumeMl": 750,
+      "inStock": null,
+      "reason": "Dry Italian Pinot Grigio, 12%. The bottle deposit is extra and IKI says the shelf price prevails if it differs."
+    }
+  ],
+  "rejected": [
+    {
+      "url": "https://vynoteka.lt/elemento-pinot-grigio-075-l",
+      "reason": "Over budget: 16.99 on the page ('16 99 €'). Dry Pinot Grigio, 12.5%, 0.75 l."
+    }
+  ],
+  "notes": "Rerun with the changed discovery rules. Five wines from three shops, against none in the first round. The first two searches again returned no product page on the five shops; the Vynokambarys white-wine listing supplied three wines (it showed 32 of 98 products with names, sweetness, prices and links), and the third search supplied the Rimi and IKI wines. The IKI listing could not be read (the tool returned an empty document). Vynoteka listings were not tried, because the previous run in this session showed they come back without products; a fresh session would not know that. All 3 searches and all 8 page reads were used. Listing prices matched the product pages for all three Vynokambarys wines."
+}
